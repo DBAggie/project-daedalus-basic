@@ -1,0 +1,208 @@
+/* ------> Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* ------> Containers General */
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* ------> Header/Nav Section */
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: maroon;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.header img {
+    padding: 5px 5px;
+    border-radius: 20px;
+}
+
+.mainnav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.mainnav ul {
+    display: inline;
+    list-style-type: none;
+    display: inline-flex;
+    order: 1;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+.nav-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+
+.navi-link:link {
+    background-color: maroon;
+    color: #fff;
+}
+
+.nav-link:visited {
+    background-color: #000;
+    color: #d3d3d3;
+
+}
+
+.nav-link:hover {
+    background-color: #d3d3d3;
+    color: black;
+    border-radius: 10px;
+}
+
+.nav-link:active {
+    color: #d3d3d3;
+    background-color: #000;
+}
+
+/* ------> Main Section */
+.overlay, .scrolling-wrapper {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+/* Overlay Container */
+.container-overlay {
+    display: grid;
+}
+
+.overlay {
+    z-index: -2;
+}
+
+.overlay img {
+    width: 100%;
+}
+
+/* Card Container */
+.scrolling-wrapper {
+    /* height: 350px;
+    
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; */
+    z-index: -1;
+    justify-self: center;
+    padding-right: 17%;
+    padding-top: 30%;
+    /* padding-right: 20%; */
+}
+
+.card {
+    /* flex: 0 0 auto; */
+    position: absolute;
+}
+
+.card p {
+    width: 300px;
+    height: 150px;
+    color: white;
+    border: 2px solid darkgray;
+    background-color: black;
+}
+
+/* Main Body Container */
+.mainbody {
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    background-color: lightgray;
+    /* color: white; */
+    font-size: 25px;
+    padding: 20px;
+    display: flex;
+}
+
+
+
+.main-1 {
+    width: 50%;
+}
+
+.main-2 {
+    margin-left: 20px;
+    width: 50%;
+}
+
+/* ------> Footer Section*/
+footer {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 50px;
+    align-items: center;
+}
+
+.footer-container li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.footer-container li ul {
+    display: inline;
+    list-style-type: none;
+    display: inline-flex;
+    order: 1;
+    /* padding-right: 20px; */
+    justify-content: center;
+}
+
+.footer-icons {
+    display: inline-flex;
+}
+
+.icon-1 {
+    margin: 0px 5px;
+}
+
+.icon-2 {
+    margin: 0px 5px;
+    padding-top: 2px;
+}
+
+.footer-icons a:link {
+    cursor: pointer;
+}
+
+.footer-icons a:visited {
+
+}
+
+.footer-icons a:hover {
+    cursor: pointer;
+}
+
+.footer-icons a:active {
+    
+}
