@@ -77,9 +77,9 @@ section {
 .card-heading {
     text-align: center;
     font-size: larger;
-    font-family: cursive;
+    font-family: Aboreto;
     text-shadow: 2px 2px #fff;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 
 }
 
