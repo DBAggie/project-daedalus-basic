@@ -1,0 +1,14 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap');
+
+/* Main Body */
+.main-section {
+    width: 100vw;
+    height: 100vw;
+}
+
+/* Background Settings */
+.overlay {
+    z-index: 2;
+}

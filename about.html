@@ -3,75 +3,61 @@
 <div class="wrapper">
 
     <head>
-        <link rel="stylesheet" href="flex.css">
-        <title>About Me</title>
-        <link rel="shortcut icon" type="image/x-icon" href="./resources/favicon.ico">
+        <link rel="stylesheet" href="./stylesheets/styles.css">
+        <link rel="stylesheet" href="./stylesheets/home-styles.css">
+        <title>Home</title>
+        <link rel="icon" href="./resources/favicon.ico?v=2">
     </head>
+    <div class="header-background">
+        <p>-</p>
+    </div>
     <header>
         <div class="container header">
-            <img src="./resources/logo-small.png">
-            <h1 class="pagetitle">Arrested Technology</h1>
-            <nav class="mainnav">
+            <div class="footer-icons">
+                <a class="icons icon-1" href="https://github.com/DBAggie" target="_blank"><img
+                        src="./resources/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" /></a>
+                </br>
+                <a class="icons icon-2" href="https://www.linkedin.com/in/justin-h-7911536b/" target="_blank"><img
+                        src="./resources/LinkedIn-Logos/LI-In-Bug-32px.png" /></a>
+            </div>
+            <img src="./resources/ART-Logo-large.png">
+            <nav class="mainnav header-content">
                 <li>
-                    <ul><a class="nav-link" href="#">Home</a></ul>
-                    <ul><a class="nav-link" href="about.html">About Me</a></ul>
+                    <ul><a class="nav-link active-page" href="./index.html">Home</a></ul>
+                    <ul><a class="nav-link" href="#">About Me</a></ul>
                 </li>
             </nav>
         </div>
     </header>
-
-    <body class="mainSection">
-        <div class="container-overlay">
-            <div class="overlay">
-                <img src="./resources/earth_1.jpg" />
-            </div>
-            <div class="scrolling-wrapper">
-                <div class="card">
-                    <p>This is a comment for the moment.</p>
+    <section class="main-section">
+        <div class="overlay">
+            <img src="./resources/earth_1.jpg" />
+        </div>
+        <div class="main-body">
+            <div class="profile-images">
+                <div class="profile-photo">
+                    <img src="./resources/meme-1.png"/>
                 </div>
-                <!-- <div class="card">
-                    <p>Well..Then there was another comment</p>
+                <div class="profile-content">
                 </div>
-                <!-- <div class="card">
-                    <p>Then another. I know super original.</p>
-                </div> --> -->
             </div>
         </div>
-
-        <div class="container mainbody">
-            <div class="main-1 main">
-                <p>What is this website for. Well...I have no idea. I wanted a project to work on and I though this
-                    would be an interesting exercise and give me a chance to learn a lot of new things about web
-                    development, app development, and back end systems. I have more about my work experience on my about
-                    me page if you are interesting in reading. So what is my plan. To the left I have a current list of
-                    items I have in the pipeline. I will have my complete source code on Github.
-                </p>
-            </div>
-            <div class="main-2 main">
-                <p>The goal of this project is to give myself a challenge. Stage 1 will consist of creating two static
-                    web pages
-                    where I develop each one using a different language or framework. Stage 2 will be to develop
-                    enhancements
-                    for each static web page depending on the language or frameworks being utilized. I would like to
-                    showcase
-                    at least one or two
-                </p>
-            </div>
-        </div>
-    </body>
+    </section>
     <footer>
         <div class="footer-container">
             <li>
-                <ul class="nav-link" href="#">Home</ul>
-                <ul class="nav-link" href="about.html">About Me</ul>
+                <ul class="nav-link" href="./index.html">Home</ul>
+                <ul class="nav-link" href="#">About Me</ul>
                 <ul class="nav-link" href="#">Contact</ul>
             </li>
             <div class="footer-icons">
-                <a class="icons icon-1" href="https://github.com/DBAggie" target="_blank"><img src="./resources/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" /></a>
+                <a class="icons icon-1" href="https://github.com/DBAggie" target="_blank"><img
+                        src="./resources/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" /></a>
                 </br>
-                <a class="icons icon-2" href="https://www.linkedin.com/in/justin-h-7911536b/" target="_blank"><img src="./resources/LinkedIn-Logos/LI-In-Bug-32px.png" /></a>
+                <a class="icons icon-2" href="https://www.linkedin.com/in/justin-h-7911536b/" target="_blank"><img
+                        src="./resources/LinkedIn-Logos/LI-In-Bug-32px.png" /></a>
             </div>
-            <p>This app was built with HTML & CSS</p>
+            <p>This app was built with Pure HTML & CSS</p>
         </div>
     </footer>
 </div>
