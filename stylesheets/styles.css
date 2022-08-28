@@ -81,6 +81,23 @@
     background-color: #000;
 }
 
+/* Background Overlay */
+/* .overlay {
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 2;
+
+} */
+/* 
+.container-overlay {
+    display: grid;
+    margin-bottom: 6%;
+} */
+
+.overlay img {
+    width: 100%;
+}
+
 /* ------> Footer Section*/
 footer {
     width: 100%;
@@ -92,7 +109,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    min-height: 50px;
+    min-height: 60px;
     align-items: center;
 }
 
